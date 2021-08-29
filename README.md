@@ -1,2 +1,2 @@
-# vb-paint
+# js-paint
 Simply paint in javascript
