@@ -1,2 +1,2 @@
 # js-paint
-Simply paint in javascript
+Simple paint as part of learning javascript
