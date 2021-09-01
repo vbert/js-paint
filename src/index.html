@@ -5,8 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS PAINT</title>
+    <link rel="stylesheet" href="./vendor/bootstrap-icons-1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./vendor/bootstrap-5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./app.css">
 </head>
 <body>
-    
+    <div id="jsApp" class="js-app">
+        <div id="jsPaint" class="js-paint">
+            <h1 class="js-titlebar">JS Paint</h1>
+            <div id="jsEditor" class="js-editor">
+                <div id="jsPaintToolBar" class="js-toolbar">
+                    <button class="js-tool btn btn-outline-secondary btn-lg" data-tool="pencil" title="Pencil"><i class="bi bi-pencil"></i></button>
+                    <button class="js-tool btn btn-outline-secondary btn-lg" data-tool="brush" title="Brush"><i class="bi bi-brush"></i></button>
+                    <button class="js-tool btn btn-outline-secondary btn-lg" data-tool="shape" title="Shape"><i class="bi bi-triangle"></i></button>
+                </div>
+                <div id="jsPaintBlackBoard" class="js-blackboard"></div>
+            </div>
+            <div id="jsPaintStatusBar" class="js-statusbar">
+                <div id="jsCursorPosition" class="js-statusbar-item">X: , Y: </div>
+                <div id="jsInfoBar" class="js-statusbar-item"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./vendor/bootstrap-5.1.0/js/bootstrap.bundle.min.js"></script>
+    <script src="./app.js"></script>
 </body>
 </html>

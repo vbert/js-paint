@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: Ubuntu, 'Lucida Sans', Verdana, Arial, sans-serif; */
+    /* font-weight: normal; */
+}
+
+.js-app,
+.js-paint,
+.js-editor,
+.js-toolbar,
+.js-statusbar {
+    display: flex;
+}
+
+.js-app,
+.js-paint,
+.js-toolbar {
+    flex-direction: column;
+}
+
+.js-editor,
+.js-statusbar {
+    flex-direction: row;
+}
+
+.js-app,
+.js-paint {
+    align-items: center;
+    justify-content: center;
+}
+
+.js-editor {
+    justify-content: flex-start;
+}
+
+.js-statusbar {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.js-app {
+    width: 100%;
+    height: 100vh;
+}
+
+.js-paint {
+    border: 1px solid #eee;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.js-titlebar {
+    width: 100%;
+    margin: 0;
+    height: 32px;
+    line-height: 32px;
+    background-color: #bd003f;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.js-statusbar {
+    width: 100%;
+    height: 26px;
+}
+
+.js-statusbar-item {
+    margin: 0 1px;
+    padding: 0 4px;
+    height: 20px;
+    line-height: 20px;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+    color: #444;
+    font-size: .8rem;
+    text-align: center;
+}
+
+.js-statusbar-item:first-of-type {
+    margin-left: 3px;
+}
+
+.js-statusbar-item:last-of-type {
+    margin-right: 3px;
+}
+
+#jsCursorPosition {
+    width: 100px;
+}
+
+#jsInfoBar {
+    width: 100%;
+}
+
+.js-paint {
+    margin: 0 auto;
+    background-color: #eee;
+}
+
+.js-toolbar > button {
+    margin-top: 1px;
+    width: 48px;
+    height: 48px;
+    /* padding: .5rem;
+    font-size: 1.5rem; */
+}
+
+.js-blackboard {
+    width: 641px;
+    height: 481px;
+    border: 1px solid #fff;
+    border-top: none;
+    border-right: none;
+    background-color: black;
+}
