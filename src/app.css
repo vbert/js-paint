@@ -89,7 +89,7 @@ body {
 }
 
 #jsCursorPosition {
-    width: 100px;
+    width: 120px;
 }
 
 #jsInfoBar {
@@ -115,5 +115,4 @@ body {
     border: 1px solid #fff;
     border-top: none;
     border-right: none;
-    background-color: black;
 }
